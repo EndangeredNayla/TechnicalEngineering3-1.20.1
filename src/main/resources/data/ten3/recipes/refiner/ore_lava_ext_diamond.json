@@ -1,0 +1,30 @@
+{
+  "type": "ten3:refiner",
+  "inputs": [
+    {
+      "form": "item",
+      "type": "tag",
+      "key": "forge:ores/diamond"
+    },
+    {
+      "form": "fluid",
+      "type": "static",
+      "key": "minecraft:lava",
+      "amount": 50
+    }
+  ],
+  "outputs": [
+    {
+      "form": "item",
+      "key": "minecraft:diamond",
+      "count": 2
+    },
+    {
+      "form": "item",
+      "key": "minecraft:diamond",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 400
+}

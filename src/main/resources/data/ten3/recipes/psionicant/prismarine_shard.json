@@ -1,0 +1,25 @@
+{
+  "type": "ten3:psionicant",
+  "inputs": [
+    {
+      "form": "item",
+      "type": "static",
+      "key": "minecraft:amethyst_shard",
+      "count": 4
+    },
+    {
+      "form": "item",
+      "type": "tag",
+      "key": "forge:dyes/blue",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "form": "item",
+      "key": "minecraft:prismarine_shard",
+      "count": 4
+    }
+  ],
+  "time": 100
+}

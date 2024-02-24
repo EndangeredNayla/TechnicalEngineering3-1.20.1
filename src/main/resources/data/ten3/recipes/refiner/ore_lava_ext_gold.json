@@ -1,0 +1,30 @@
+{
+  "type": "ten3:refiner",
+  "inputs": [
+    {
+      "form": "item",
+      "type": "tag",
+      "key": "forge:ores/gold"
+    },
+    {
+      "form": "fluid",
+      "type": "static",
+      "key": "minecraft:lava",
+      "amount": 30
+    }
+  ],
+  "outputs": [
+    {
+      "form": "item",
+      "key": "minecraft:gold_ingot",
+      "count": 3
+    },
+    {
+      "form": "item",
+      "key": "minecraft:gold_ingot",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 300
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ten3:refiner",
+  "inputs": [
+    {
+      "form": "item",
+      "type": "tag",
+      "key": "forge:ores/netherite_scrap"
+    },
+    {
+      "form": "fluid",
+      "type": "static",
+      "key": "minecraft:lava",
+      "amount": 100
+    }
+  ],
+  "outputs": [
+    {
+      "form": "item",
+      "key": "minecraft:netherite_scrap",
+      "count": 1
+    },
+    {
+      "form": "item",
+      "key": "minecraft:netherite_scrap",
+      "count": 1,
+      "chance": 0.75
+    }
+  ],
+  "time": 400
+}
